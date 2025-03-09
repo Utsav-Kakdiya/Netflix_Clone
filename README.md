@@ -1,1 +1,2 @@
 # Netflix_Clone
+I built a Netflix clone to sharpen my HTML and CSS skills, focusing on responsive design, layout structuring, and UI styling. The project replicates the sleek interface of Netflix, including a dynamic homepage, movie thumbnails, and a user-friendly navigation bar. This hands-on experience helped me refine my front-end development skills and improve my understanding of modern web design principles.
