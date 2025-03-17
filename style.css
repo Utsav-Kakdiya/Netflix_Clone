@@ -17,7 +17,7 @@ body {
     width: 1500px;
     height: 100%;
     margin: auto;
-    /* background-color: yellow;  */
+
 }
 
 .top {
@@ -195,28 +195,23 @@ h3 {
     border-radius: 10px;
 }
 
-.ten1 {
-    position: absolute;
-    top: 200px;
-    left: 220px;
+.more_pic {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
 
 .ten2 {
-    position: absolute;
-    top: 200px;
-    left: 220px;
+    margin-top: 16px;
 }
 
 .ten3 {
-    position: absolute;
-    top: 200px;
-    left: 220px;
+    margin-top: 40px;
 }
 
 .ten4 {
-    position: absolute;
-    top: 205px;
-    left: 200px;
+    margin-top: 76px;
+
 }
 
 .trend img {
@@ -270,31 +265,11 @@ p {
     color: white;
     font-size: 23px;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
 
-.plus1 {
-    margin-left: 951px;
-}
 
-.plus2 {
-    margin-left: 795px;
-}
-
-.plus3 {
-    margin-left: 895px;
-}
-
-.plus4 {
-    margin-left: 925px;
-}
-
-.plus5 {
-    margin-left: 795px;
-}
-
-.plus6 {
-    margin-left: 860px;
-}
 
 .faq-box:hover {
     background-color: #414141;
@@ -352,6 +327,7 @@ footer {
 @media screen and (max-width:2000px) and (min-width:1500px) {
     .main {
         width: 100%;
+
     }
 
     .division {
@@ -375,7 +351,16 @@ footer {
     }
 
     .faq {
-        margin-top: 180px;
+        margin-top: 271px;
+    }
+
+
+    .ten2 {
+        margin-top: 23px;
+    }
+
+    .ten4 {
+        margin-top: 92px;
     }
 
     .trend {
@@ -392,49 +377,6 @@ footer {
         width: auto;
     }
 
-    .ten1 {
-        top: 137px;
-        left: 364px;
-    }
-
-    .ten2 {
-        top: 138px;
-        left: 365px;
-    }
-
-    .ten3 {
-        top: 117px;
-        left: 370px;
-    }
-
-    .ten4 {
-        top: 126px;
-        left: 357px;
-    }
-
-    .plus1 {
-        margin-left: 610px;
-    }
-
-    .plus2 {
-        margin-left: 456px;
-    }
-
-    .plus3 {
-        margin-left: 557px;
-    }
-
-    .plus4 {
-        margin-left: 590px;
-    }
-
-    .plus5 {
-        margin-left: 463px;
-    }
-
-    .plus6 {
-        margin-left: 529px;
-    }
 
     .eliminate {
         display: none;
@@ -465,28 +407,8 @@ footer {
         background-image: linear-gradient(to bottom right, #192246, #1e182e, #2b111e);
     }
 
-    .faq {
-        margin-top: 180px;
-    }
-
-    .ten1 {
-        top: 166px;
-        left: 245px;
-    }
-
-    .ten2 {
-        top: 170px;
-        left: 265px;
-    }
-
-    .ten3 {
-        top: 130px;
-        left: 255px;
-    }
-
-    .ten4 {
-        top: 139px;
-        left: 257px;
+    .faq{
+        margin-top: 269px;
     }
 
     .trend img {
@@ -498,30 +420,6 @@ footer {
         margin-bottom: 15px;
         font-weight: 400;
         font-size: 16px;
-    }
-
-    .plus1 {
-        margin-left: 410px;
-    }
-
-    .plus2 {
-        margin-left: 255px;
-    }
-
-    .plus3 {
-        margin-left: 355px;
-    }
-
-    .plus4 {
-        margin-left: 385px;
-    }
-
-    .plus5 {
-        margin-left: 255px;
-    }
-
-    .plus6 {
-        margin-left: 315px;
     }
 
     .eliminate {
@@ -537,6 +435,10 @@ footer {
     .main {
         width: 100%;
         padding: 15px 40px 0 40px;
+    }
+
+    .ten4 {
+        margin-top: 31px;
     }
 
     .division {
@@ -561,7 +463,7 @@ footer {
     }
 
     .faq {
-        margin-top: 580px;
+        margin-top: 709px;
     }
 
     .final {
@@ -590,26 +492,7 @@ footer {
         border-radius: 25px;
     }
 
-    .ten1 {
-        top: 128px;
-        left: 428px;
-    }
 
-    .ten2 {
-        top: 109px;
-        left: 430px;
-    }
-
-    .ten3 {
-        top: 110px;
-        left: 431px;
-    }
-
-    .ten4 {
-        position: absolute;
-        top: 139px;
-        left: 424px;
-    }
     .faqsec p {
         margin-left: 0;
         text-align: center;
@@ -636,29 +519,6 @@ footer {
         height: 50px;
     }
 
-    .plus1 {
-        margin-left: 266px;
-    }
-
-    .plus2 {
-        margin-left: 110px;
-    }
-
-    .plus3 {
-        margin-left: 211px;
-    }
-
-    .plus4 {
-        margin-left: 242px;
-    }
-
-    .plus5 {
-        margin-left: 114px;
-    }
-
-    .plus6 {
-        margin-left: 177px;
-    }
 
     .eliminate {
         display: none;
@@ -674,6 +534,10 @@ footer {
         height: 100%;
         width: 100%;
         padding: 15px 15px 0 15px;
+    }
+
+    .ten4{
+        margin-top: 0;
     }
 
     .division {
@@ -702,7 +566,7 @@ footer {
     }
 
     .faq {
-        margin-top: 580px;
+        margin-top: 806px;
     }
 
     .final {
@@ -730,26 +594,6 @@ footer {
         width: 514px;
     }
 
-    .ten1 {
-        top: 154px;
-        left: 255px;
-    }
-
-    .ten2 {
-        top: 120px;
-        left: 266px;
-    }
-
-    .ten3 {
-        top: 141px;
-        left: 273px;
-    }
-
-    .ten4 {
-        top: 147px;
-        left: 258px;
-    }
-
     .trend img {
         width: 134px;
         height: 220px;
@@ -775,9 +619,11 @@ footer {
         font-size: 32px;
         text-align: center;
     }
+
     .hero> :nth-child(3) {
         text-align: center;
     }
+
     .top {
         height: 720px;
     }
@@ -799,35 +645,9 @@ footer {
         width: 336px;
     }
 
-    .plus1 {
-        margin-left: 10px;
-    }
-
-    .plus2 {
-        margin-left: 10px;
-    }
-
-    .plus3 {
-        margin-left: 11px;
-    }
-
-    .plus4 {
-        margin-left: 10px;
-    }
-
-    .plus5 {
-        margin-left: 10px;
-    }
-
-    .plus6 {
-        margin-left: 10px;
-    }
 
     footer {
         margin-top: 637px;
-    }
-    .faq{
-        margin-top: 630px;
     }
 
     .footer {
